@@ -5,5 +5,6 @@ Resource    ../resources/import.robot
 Click on Account menu
     Wait and click element      ${btnAccount}
 
-Choose Register Link
-    Wait and click element      ${linkRegister}
+Choose Menu Link
+    [Arguments]                 ${accountMenuLink}
+    Wait and click element      //header//a[contains(text(), '${accountMenuLink}')]
