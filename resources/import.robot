@@ -1,5 +1,8 @@
 *** Settings ***
-Library    SeleniumLibrary
+Library     SeleniumLibrary
+Library     RequestsLibrary
+Library     JSONLibrary
+Library     Collections
 
 Resource    ../pages/landingPage.robot
 Resource    ../pages/registerPage.robot
