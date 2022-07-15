@@ -1,5 +1,5 @@
 *** Settings ***
-Resource    ../resources/import.robot
+Resource    ../../resources/import.robot
 
 *** Keywords ***
 Click on Account menu
